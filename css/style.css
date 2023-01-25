@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    width: 450px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 50px 0px rgb(255 170 170 / 70%);
+    border: 0.1px solid rgb(255 170 170 / 30%);
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.form .header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: #f2f6fc;
+}
+.form .header h3{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.form .header .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 15%;
+}
+.form .header .icon i{
+    font-size: 12px;
+    cursor: pointer;
+}
+.form form{
+    width: 96%;
+    margin: auto;
+}
+.form form input,
+.form form textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #eceff1;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+.form form input:focus,
+.form form textarea:focus{
+    outline: none;
+}
+.form form input::placeholder{
+    padding: 5px 0;
+    font-size: 14px;
+}
+.form form .last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.form form .last .send{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b57d0;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 2px;
+    width: 25%;
+}
+.form form .last .send:hover{
+    box-shadow: 0px 0px 5px #0b57d0;
+}
+.form form .last .send input[type="submit"]{
+    background: #0b57d0;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    width: 75%;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    line-height: 1.9;
+}
+.form form .last .send i:nth-of-type(1){
+    background: none;
+}
+.form form .last .send i{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+.form form .last .icon_1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65%;
+}
+.form form .last .icon_1 i{
+    margin-right: 7px;
+    cursor: pointer;
+    padding: 3px 4px;
+    opacity: 0.7;
+}
+.form form .last .icon_1 i:hover{
+    background-color: #eceff1;
+}
+.form form .last i{
+    cursor: pointer;
+    padding: 3px 4px;
+    opacity: 0.7;
+}
+.form form .last i:hover{
+    background-color: #eceff1;
+    opacity: 1;
+}
